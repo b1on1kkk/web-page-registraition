@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up!</title>
+    <link rel="stylesheet" href="/sign_up_styles.css" />
+  </head>
+  <body>
+    <div class="sign_up_wrapper">
+      <form action="/sign_up" method="POST" enctype="multipart/form-data">
+        <input type="file" name="profileImg" multiple="multiple" />
+        <input
+          type="email"
+          placeholder="enter email"
+          name="email"
+          class="user_email"
+        />
+        <div class="mail_warning_text">Email is not correct!</div>
+        <input
+          type="text"
+          placeholder="enter login"
+          name="login"
+          class="user_login"
+        />
+        <div class="login_warning_block">This login is busy!</div>
+        <input
+          type="password"
+          placeholder="enter password"
+          name="password"
+          class="pattern_password"
+        />
+        <input
+          type="password"
+          placeholder="reenter your password"
+          class="password_rechecking"
+        />
+        <div class="password_warning_text">Passwords are not match!</div>
+
+        <div class="main_error">All fields should be filled in!</div>
+
+        <div class="main_error_block"></div>
+
+        <button type="submit">Sign up account!</button>
+      </form>
+    </div>
+
+    <script type="module" src="/sing_up_validation.js"></script>
+  </body>
+</html>

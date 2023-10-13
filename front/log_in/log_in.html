@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="/log_in_styles.css" />
+  </head>
+  <body>
+    <div class="log_in_wrapper">
+      <form action="/log_in" method="POST">
+        <input
+          type="text"
+          placeholder="enter login"
+          name="login"
+          class="user_login"
+        />
+        <input
+          type="password"
+          placeholder="enter password"
+          name="password"
+          class="user_password"
+        />
+
+        <div class="user_not_found_warning">
+          This user can be blocked or not found! Enter login and password
+          properly!
+        </div>
+
+        <button type="submit">Log in to account!</button>
+      </form>
+    </div>
+
+    <script type="module" src="/log_in_to_site.js"></script>
+  </body>
+</html>

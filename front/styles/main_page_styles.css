@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  min-height: 60px;
+  padding: 10px;
+}
+
+.entrance_links {
+  padding: 10px;
+  margin: 5px;
+}
+
+.main h1 {
+  margin: 50px;
+  text-align: center;
+}
+
+.header_wrapper div {
+  color: white;
+  align-items: center;
+  display: flex;
+}
+
+.header_wrapper div img {
+  width: 80px;
+  clip-path: circle();
+}
+
+.logout {
+  margin-left: 10px;
+}

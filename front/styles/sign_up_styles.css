@@ -1,0 +1,19 @@
+.sign_up_wrapper form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.sign_up_wrapper form input,
+button,
+div {
+  margin: 10px;
+}
+
+.mail_warning_text,
+.password_warning_text,
+.login_warning_block,
+.main_error,
+.main_error_block {
+  display: none;
+}

@@ -1,0 +1,41 @@
+.all_users_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_wrapper {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.user_nickname {
+  flex: 1;
+}
+
+.checkbox_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.img_wrapper img {
+  width: 80px;
+  clip-path: circle();
+}
+
+.trash_block_wrapper {
+  margin: 10px;
+}
+
+.trash_block_wrapper img:hover {
+  opacity: 1;
+}
+
+.trash_block_wrapper img {
+  width: 20px;
+  opacity: 0.5;
+}

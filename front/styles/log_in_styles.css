@@ -1,0 +1,16 @@
+.log_in_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.user_not_found_warning,
+.user_blocked_status {
+  display: none;
+}
+
+input,
+button,
+div {
+  margin: 10px;
+}
